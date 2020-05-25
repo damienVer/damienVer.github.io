@@ -1,9 +1,36 @@
-h1,h2{
-    text-align: center;
+body{
+    padding: 0;
+    margin:0;
+    font-family: 'roboto',sans-serif;
+    font-weight: lighter;
 }
-.container {
-    width: 200px;
-    height:200px;
-    border: 1px #23282d solid ;
-    text-align : center ; 
+.main{
+    background-color: #5D7FEF;
+    height: 300px;
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+.contact {
+    align-self: center;
+}
+.renseignement >li{
+    margin-left: 40px;
+}
+.renseignement > h2{
+    margin-bottom: 10px;
+}
+.renseignement li {
+    list-style-type: none;
+}
+
+.liste ul li {
+    list-style-type: none;
+}
+.liste > h2 {
+    margin-bottom: 10px;
+}
+.liste > .titre {
+    margin-bottom: 10px;
 }
